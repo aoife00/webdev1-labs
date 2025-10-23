@@ -24,7 +24,7 @@ ul {list-style-type:none;}
 nav ul {list-style-type:none;
   padding: 0;}
 
-nav ul li {display: inline;}
+nnav ul li  {padding: 10px 20px;}
 
 nav ul li a {padding: 10px 20px;
   text-align: center; 
@@ -32,11 +32,15 @@ nav ul li a {padding: 10px 20px;
   width: 25%;
   box-sizing: border-box;}
 
-nav ul li a:link, nav ul li a:visited {background-color: dodgerblue;
+nav ul li a:link, nav ul li a:visited {
   color: white;
   text-decoration: none;}
   
-nav ul li a:hover, nav ul li a:active {background-color: lightskyblue;}
+nav ul li a:hover  {text-decoration: underline;}
+
+nav ul li a:active {color: navy;
+    text-decoration: none;}
+
 
 #tagline { font-style: italic;
 font-family:Georgia, Times, serif;}
@@ -70,4 +74,15 @@ line-height:125%;}
 
 #container {width: 80%;
     margin: 0 auto;}
+
+img.feature {
+  float:right;
+  margin-left: 1%;
+}
+#content {display: flex;}
+nav {background-color: dodgerblue;
+  flex: 1;}
+
+main {flex:5;
+  padding-left:1em;}
 
