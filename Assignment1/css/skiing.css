@@ -1,0 +1,44 @@
+p{color:black;}
+body{background-color:#e7f7fa;}
+
+
+#tagline{font-style: italic;
+    font-family: Georgia, Times, serif;
+    border-top: 3px solid #3fb9d1;
+    border-bottom: 3px solid #3fb9d1;
+    background-color: #ceeff6;
+    padding-top:.2em;
+    padding-bottom:.2em;
+    padding-left:.8em;
+    margin: 0;}
+
+h2{color: #6198bb;
+text-decoration: underline;
+background-color: #ceeff6;}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3fb9d1;}
+
+nav ul li {float: left;}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+
+nav ul li a:hover {background-color: #6198bb;}
+
+
+img{float:right;
+margin-right:5%;
+margin-bottom:5%;}
+
+
+

@@ -10,7 +10,8 @@ h1 {font-size: x-large;
   padding-top: 2em;
   padding-bottom: .2em;
   padding-left: .4em;
-  margin: 0;}
+  margin: 0;
+  background: navy url(../images/backgrounds/header-bg.jpg) repeat-y right bottom;}
 
 h2 {padding-top:.5em;
   color: navy;
@@ -19,12 +20,16 @@ h2 {padding-top:.5em;
 
 h1, h2, h3 {font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;}
 
-ul {list-style-type:none;}
+ul{list-style-type:none;}
+nav{flex: 1;
+	height: 484px;
+    background: url(../images/backgrounds/nav-bg.jpg) no-repeat;}
+
 
 nav ul {list-style-type:none;
   padding: 0;}
 
-nnav ul li  {padding: 10px 20px;}
+nav ul li  {padding: 10px 20px;}
 
 nav ul li a {padding: 10px 20px;
   text-align: center; 
@@ -70,7 +75,8 @@ line-height:125%;}
     padding-top: .2em;
     padding-bottom: .2em;
     padding-left: .8em;
-    margin: 0;}
+    margin: 0;
+    background: #bed8f3 url(../images/backgrounds/tagline-fade.jpg) repeat-y right;}
 
 #container {width: 80%;
     margin: 0 auto;}
@@ -86,3 +92,60 @@ nav {background-color: dodgerblue;
 main {flex:5;
   padding-left:1em;}
 
+table#events th, table#events td {
+  padding: .3em;
+  border:solid black 1px;
+}
+
+table#events {
+  border-collapse: collapse;
+  border:solid black 1px;
+  width:95%;
+}
+
+table#events th {
+  font-size: medium;
+  text-align: left;
+  background: #241374;
+  color: #ffffff;
+  border-color:#000066;
+  padding: 0 .5em;
+}
+
+table#events td {
+  font-size: small;
+}
+
+table.events caption {
+  color: #000066;
+  font-size: small;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: .5em;
+}
+
+table#events tr:nth-of-type(even){
+  background-color: #ADD8E6;
+}
+table#events tr:nth-of-type(odd) {
+  background-color:#B0C4DE;
+}
+
+table#events tr:hover {
+  background: #c5e3ed;}
+
+  figure {
+  border-bottom: 1px solid navy;
+  margin-bottom: 2%;}
+
+figcaption {
+  color:navy;
+  font-size: 75%;
+  font-weight: bold;
+  margin-top: 0;
+  width: 90%;
+  line-height: 1.4em;}
+
+figcaption span {
+  font-weight: normal;
+  color: gray;}
