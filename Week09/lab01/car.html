@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Car Booking</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <h1>Book a Car</h1>
+      </header>
+      <main>
+        <section id="form">
+          <h2>Contact Us</h2>
+
+          <form action="process.html" method="get" id="booking">
+            <div class="form-row">
+              <label for="contactname">Name</label>
+              <input
+                type="text" name="contactname" id="contactname">
+              <label for = "email">Email Address: </label>
+              <input type="email" name="email" id="email" >
+              </p>
+            </div>
+
+            <div class="radio">
+              Do you have a drivers licence:<br>
+              <lable for="Yes">
+              <input type="radio" name="format" id ="yes" checked="checked"> Yes </label>
+              <lable for="No">
+              <input type="radio" name="format" id ="No" checked="checked"> No </label>
+            </div>
+
+            <div class="form-row">
+            <label for "age"> age
+            <input type ="number" name = "age" id ="age" min="17" max="80" </label>
+            </div>
+
+            <div class="form-row">
+            <label for "Date">Booking Date</lable>
+            <input type="date" name="Booking Date" id="Booking date">
+            </div>
+
+            <div class="form-row">
+            <label for = "Car" >Car:</label>
+            <select name="Car" id="Car">
+            <option value="Ford Focus">Ford Focus</option>
+            <option value="Hyundi Tucson">Hyundi Tucson</option>
+            <option value="Toyota Rav4">Toyota Rav4</option>
+            <option value="Renault Kadjar">Renault Kadjar </option>
+            <option value="Nissan Qashqai"> Nissan Qashqai</option>
+            </select>
+          </div>
+
+            <textarea name="comments" id= "comments">
+            Please provide any other details you think will be useful to us in the text area below (it may save us calling or emailing you and help avoid delays).
+            More details(as much as you think we'll need!)
+            </textarea>
+            <button  type="submit">Send Us the Info</button> <button  type="reset">Clear the Info</button>
+            </form>
+        </section>
+
+
+        <section id="image">
+          <figure>
+            <img src="images/car.jfif" alt="Car" class="ui fluid image">
+            <figcaption>Car Rental</figcaption>
+          </figure>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
