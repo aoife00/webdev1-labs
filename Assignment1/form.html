@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal website</title>
+  <link rel="stylesheet" href = "css/form.css">
+</head>
+
+<body>
+
+<header>
+<p id ="tagline">Fill out the travel form below!</p>
+</header>
+
+<nav>
+<ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="camogie.html">Camogie</a></li>
+      <li><a href="travel.html">Travel</a></li> 
+      <li><a href="form.html">Form</a></li>
+      <li><a href="flute.html">Music</a></li>
+      <li><a href="artist.html">Artist</a></li>
+</ul>
+</nav>
+<main>
+<form name="tutorial" id ="tutorial" action="processform.htm" onreset="document.tutorial.name.focus();">
+<label for="name">Enter your name:</label>
+<input type="text" name="name" id ="name" size="20" required="">
+<p>
+<label for="email2">Enter your e-mail address:</label>
+<input type="email" name="email2" id ="email2" size="30" required="" pattern = “[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$
+>
+</p>
+
+
+<fieldset class="check">
+    <legend>Which is your favourite time of year to travel?</legend>
+    <label> <input type="radio" id="winter" name = "winter" value="winter"> Winter </label>
+    <label> <input type="radio" id="summer" name = "summer" value="summer"> Summer </label>
+</fieldset>
+
+<fieldset class="check">
+    <legend>Have you traveled overseas before?</legend>
+    <label><input type="radio" id="yes" name="yes" value="yes"> Yes</label>
+    <label><input type="radio" id="no" name="no" value="no"> No</label>
+</fieldset>
+
+<fieldset class="check">
+    <legend>Select which countries you would love to visit?</legend>
+    <label><input type="checkbox" id="italy" value="italy">Italy</label>
+    <label><input type="checkbox" id="spain" value="spain">Spain </label>
+    <label><input type="checkbox" id="portugal" value="portugal">Portugal</label>
+    <label><input type="checkbox" id="France" value="France">France</label>
+    <label><input type="checkbox" id="Germany" value="Germany">Germany</label>
+    <label><input type="checkbox" id="Croatia" value="Croatia">Croatia</label>
+    <label><input type="checkbox" id="Andorra" value="Andorra">Andorra</label>
+    <label><input type="checkbox" id="Denmark" value="Denmark">Denmark</label>
+    <label><input type="checkbox" id="Estonia" value="Estonia">Estonia</label>
+    <label><input type="checkbox" id="Greece" value="Greece">Greece</label>
+    <label><input type="checkbox" id="Moldovia" value="Moldovia">Moldovia</label>
+    <label><input type="checkbox" id="Switzerland" value="Switzerland">Switzerland</label>
+    <label><input type="checkbox" id="Romania" value="Romania">Romania</label>
+    <label><input type="checkbox" id="San Marino" value="San Marino">San Maraino</label>
+</fieldset>
+
+<p>
+<br>
+<input style="clear:left" type="submit">
+<input type="reset" value = "Start Over">
+</form>
+</body>
+</html>
